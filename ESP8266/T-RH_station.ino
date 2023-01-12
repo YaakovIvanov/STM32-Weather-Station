@@ -8,11 +8,11 @@ struct ParsedData
     String RH;
 };
 
-char *ssid = "Galaxy S21";
-char *pass = "T7855412";
+char *ssid = ""; // Insert
+char *pass = ""; // Insert
 
-unsigned long channelNum = 2001063;
-char *writeKey = "YKP5E8J7OHMHWU98";
+unsigned long channelNum = ; // Insert
+char *writeKey = ""; // Insert
 
 WiFiClient client;
 
