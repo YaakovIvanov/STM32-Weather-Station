@@ -1,2 +1,7 @@
-# STM32-Weather-Station
-IoT Weather Station Project on the STM32F401RE
+# STM32 IoT Weather Station
+
+##A weather station that allows both local and remote monitoring of temperature and relative humidity.
+
+###Equipment
+
+- STM32 Nucleo Board
