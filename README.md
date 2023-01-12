@@ -24,6 +24,8 @@ A weather station that allows both local and remote monitoring of temperature an
   #### DHTemp
     An original driver for the DHT11/22 (AM2302) temperature and humidity sensor from one of my other repositories.  
     This driver also provides the benifit of STM32 portability through the use of their HAL definitions.  
-    This library makes use of a function defined is "Delay.h" which uses a timer to attain delay in micro seconds.  
+    This library makes use of a function defined in "Delay.h" which uses a timer to attain delay in micro seconds.  
   #### ESP8266
-    
+    Internet connectivity for this project is attained through the use of an ESP8266 WiFi module.  
+    The NodeMCU ESP-12E Development Board allows for programming the module with Arduino IDE and C++ rather than using AT commands to control the chip.  
+    The ESP8266WiFi library provides support for the module in the Arduino IDE, while the ThingSpeak library simplifies communication with the IoT platform.
