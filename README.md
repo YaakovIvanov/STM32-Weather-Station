@@ -2,10 +2,6 @@
 
 A weather station that allows both local and remote monitoring of temperature and relative humidity.
 
-<p align="center">
-  <img src="https://github.com/YaakovIvanov/STM32-Weather-Station/blob/main/Img/STM32_Weather_Station.jpg" width=70% height=70%>
- </p>
-
 ### Equipment
 
 - STM32 Nucleo development board
