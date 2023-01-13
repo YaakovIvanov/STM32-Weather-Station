@@ -3,7 +3,7 @@
 A weather station that allows both local and remote monitoring of temperature and relative humidity.
 
 <p align="center">
-  <img src="https://github.com/YaakovIvanov/STM32-Weather-Station/blob/main/Img/STM32_Weather_Station.jpg" width=60% height=60%>
+  <img src="https://github.com/YaakovIvanov/STM32-Weather-Station/blob/main/Img/STM32_Weather_Station.jpg" width=70% height=70%>
  </p>
 
 ### Equipment
@@ -12,6 +12,10 @@ A weather station that allows both local and remote monitoring of temperature an
 - Hitachi HD44780U based LCD screen
 - DHT11/22 (AM2302) temperature and humidity sensor
 - NodeMCU ESP-12E Development Board with ESP8266 WiFi module
+
+<p align="center">
+  <img src="https://github.com/YaakovIvanov/STM32-Weather-Station/blob/main/Img/STM32_Weather_Station_edited.jpg" width=70% height=70%>
+ </p>
 
 ### Software Prerequisites
 
