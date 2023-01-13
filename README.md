@@ -1,6 +1,6 @@
 # STM32 IoT Weather Station
 
-A weather station that allows both local and remote monitoring of temperature and relative humidity.
+A weather station that allows both local and remote monitoring and logging of temperature and relative humidity.
 
 ### Equipment
 
@@ -37,5 +37,11 @@ A weather station that allows both local and remote monitoring of temperature an
 ### Description  
     
 Using the DHTemp driver, the STM32 chip is configured to request an update on weather conditions from the DHT sensor about once a second (may be modified). The chip then recieves the data, and updates the information printed on the LCD accordingly.  
-A seperate timer on the chip is configured to trigger an interrupt about once every 5 minutes (may be modified) to transmit the weather conditions at that instance to the NodeMCU ESP-12E via UART. The NodeMCU then sends the data to a ThingSpeak channel via WiFi.
+A seperate timer on the chip is configured to trigger an interrupt about once every 5 minutes (may be modified) to transmit the weather conditions at that instance to the NodeMCU ESP-12E via UART. The NodeMCU then sends the data to a ThingSpeak channel via WiFi.  
 The ThingSpeak channel allows for monitoring the weather conditions from a remote location, while also logging the data for observing trends and past conditions.
+
+<p align="center">
+  <img src="https://github.com/YaakovIvanov/STM32-Weather-Station/blob/main/Img/Capture_minutes.JPG" width=80% height=80%>
+  https://thingspeak.com/channels/2001063
+ </p>
+
