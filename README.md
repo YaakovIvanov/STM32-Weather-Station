@@ -33,3 +33,9 @@ A weather station that allows both local and remote monitoring of temperature an
     Internet connectivity for this project is attained through the use of an ESP8266 WiFi module.  
     The NodeMCU ESP-12E Development Board allows for programming the module with Arduino IDE and C++ rather than using AT commands to control the chip.  
     The ESP8266WiFi library provides support for the module in the Arduino IDE, while the ThingSpeak library simplifies communication with the IoT platform.
+    
+### Description
+    
+    Using the DHTemp driver, the STM32 chip is configured to request an update on weather conditions from the DHT sensor about once a second (may be modified). The chip then recieves the data, and updates the information printed on the LCD accordingly.
+    A seperate timer on the chip is configured to trigger an interrupt about once every 5 minutes (may be modified) to transmit the weather conditions at that instance to the NodeMCU ESP-12E via UART. The NodeMCU then sends the data to a ThingSpeak channel via WiFi.
+    
